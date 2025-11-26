@@ -11,8 +11,8 @@ public class Main {
 		
 		st = new StringTokenizer(br.readLine());
 		int N = Integer.parseInt(st.nextToken());
-		int num = 2;
-		int res = 1;
+		int num = 1;
+		int res = 0;
 		
 		while (res <= N) {
 			res += num;
